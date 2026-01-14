@@ -177,3 +177,11 @@
     - Add MTP (Multi-Token Prediction) support for single-node TRT configs
     - Add spec-decoding field to config entries and update launch scripts to select MTP benchmark scripts
   pr-link: https://github.com/InferenceMAX/InferenceMAX/pull/392
+  
+- config-keys:
+    - dsr1-fp8-mi355x-atom
+    - dsr1-fp4-mi355x-atom
+    - gptoss-fp4-mi355x-atom
+  description:
+    - Add internal AMD ATOM inference engine for DeepSeek R1 FP8, FP4 and GPTOSS FP4 Mi355X
+  pr-link: https://github.com/InferenceMAX/InferenceMAX/pull/419
