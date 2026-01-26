@@ -5,6 +5,7 @@ lit review
 -  sglang calls GPU HBM as (L1) and CPU DRAM as (L2)
 - https://lmsys.org/images/blog/hicache/mooncake_benchmark.png
 - single turn long context Q&A  https://arxiv.org/abs/2311.04939 (seems more like an shared prefix style similar to cascade attention (pre cursor to sglang radix attention )) https://flashinfer.ai/2024/02/02/cascade-inference.html
+- synethic & sharegpt vllm multi turn datasets https://github.com/vllm-project/vllm/tree/main/benchmarks/multi_turn
 - Production Alibiba Multi turn dataset https://arxiv.org/abs/2506.02634 (seem to not provide the acutal prompts and outputs tho, more just prompt lengths and output lengths, etc.)
 - sglang synthetic multi turn benchmark script here https://github.com/sgl-project/sglang/tree/main/benchmark/hicache
 - interestingly sglang blog simulates PD disagg via just setting OSL as 1
