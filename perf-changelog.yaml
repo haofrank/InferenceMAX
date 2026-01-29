@@ -291,3 +291,11 @@
     - "Update search space: remove EP=TP constraint, add TP=4 configurations, extend concurrency ranges"
     - "Add TLLM_OVERRIDE_LAYER_NUM=61 to avoid OOM errors"
   pr-link: https://github.com/InferenceMAX/InferenceMAX/pull/594
+  
+- config-keys:
+  - dsr1-fp4-b200-dynamo-trt
+  description:
+    - "Update DSR1 FP4 B200 Dynamo TRT configurations"
+    - "Update TRTLLM version to 1.2.0rc6.post2"
+    - "Transform to use srt-slurm recipes"
+  pr-link: https://github.com/InferenceMAX/InferenceMAX/pull/588
